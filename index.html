@@ -27,18 +27,20 @@
                 <!--/header__block-->
 
                 <nav class="nav">
-                    <a href="index.html" class="nav__link active">Главная</a>
-                    <a href="#" class="nav__link">Наши услуги</a>
-                    <a href="about/index.html" class="nav__link">О нас</a>
+                    <a href="#about" class="nav__link active lang" key="about">Услуги</a>
+                    <a href="#about_us" class="nav__link lang"key="about_us"> О нас</a>
+                    <a href="#mail" class="nav__link lang" key="mail"> Связаться с нами</a>
 
                 </nav>
 
                 <div class="header__block">
                     <div class="header__lng">
-                        <a href="#" class="header__lng-link">
+                        <a href="#" class="header__lng-link  translate" id="ru">
                             Ru
                         </a>
-                        <a href="#" class="header__lng-link active">En</a>
+                       
+                    </a>
+                    <a href="#" class="header__lng-link translate " id="en">En</a>
                     </div>
                 </div>
             </div>
@@ -52,11 +54,11 @@
         <div class="container">
             <div class="intro__content">
                 <div class="intro__block">
-                    <h1 class="intro__title">
+                    <h1 class="intro__title lang" key="intro__title">
                         СЕРВИС, КАТОРОМУ МОЖНО ДОВЕРЯТЬ
                     </h1>
 
-                    <a href="#" class="btn">
+                    <a href="#" class="btn lang" key="see_more">
                         Показать больше
                     </a>
                 </div>
@@ -72,11 +74,11 @@
                         <div class="info__img">
                             <img src="img/phone.svg" alt="">
                         </div>
-                        <h4 class="info__title">
-                            ПОЗВОНИТЕ НАМ СЕЙЧАС ( +373) 69-272746
+                        <h4 class="info__title lang" key="call">
+                            ПОЗВОНИТЕ НАМ СЕЙЧАС (+373) 69-272746
                         </h4>
-                        <p class="info__text">
-                            Качественная консультация<br><br><br>
+                        <p class="info__text lang" key="cons">
+                            Качественная консультация
                         </p>
                     </div>
                 </div>
@@ -86,11 +88,11 @@
                         <div class="info__img">
                             <img src="img/calendar.svg" alt="">
                         </div>
-                        <h4 class="info__title">
+                        <h4 class="info__title lang" key="ap">
                             ПОЛУЧИТЬ БЕСПЛАТНУЮ ЗАЯВКУ
                         </h4>
-                        <p class="info__text">
-                            Бесплатная диагностика<br><br><br>
+                        <p class="info__text lang" key="free">
+                            Бесплатная диагностика
                         </p>
                     </div>
                 </div>
@@ -100,10 +102,10 @@
                         <div class="info__img">
                             <img src="img/pin.svg" alt="">
                         </div>
-                        <h4 class="info__title">
+                        <h4 class="info__title lang" key="find">
                             НАЙТИ НАС НА КАРТЕ
                         </h4>
-                        <p class="info__text">
+                        <p class="info__text lang"key="adress">
                             Кишинёв, ул.Luncii 2/1<br>
 
                             Пон.-Пятница: 9:00-18:00<br>
@@ -122,112 +124,114 @@
 
     <section class="section">
         <div class="container">
-            <h2 class="block__title ">
+            <h2 class="block__title  lang" key="serv" id="about">
                 НАШИ УСЛУГИ
             </h2>
 
 
             <div class="wrapper">
                 <div class="block">
-                    <a  class="services__item">
+                    <a class="services__item">
                         <div class="services__content" style="background-image:url('img/1.jpg');">
                             <div class="services__content-item">
 
-                                <p class="services__text">
+                                <p class="services__text lang" key="tt">
                                     Тюнинг салона по эксклюзивному дизайну позволяет полностью изменить интерьер вашего
                                     автомобиля
                                 </p>
                             </div>
                         </div>
-                        <h3 class="services__title">
+                        <h3 class="services__title lang" key="tT">
                             ТЮНИНГ САЛОНА
                         </h3>
                     </a>
                 </div>
                 <!--/block-->
                 <div class="block">
-                    <a  class="services__item">
+                    <a class="services__item">
                         <div class="services__content" style="background-image:url('img/2.jpg');">
                             <div class="services__content-item">
 
-                                <p class="services__text">
+                                <p class="services__text lang"key="t1">
                                     Перетяжка салона может изменить дизайн и добавить в него множество новых полезных
                                     элементов
                                 </p>
                             </div>
                         </div>
-                        <h3 class="services__title">
+                        <h3 class="services__title lang" key="t2">
                             ПЕРЕТЯЖКА САЛОНА
                         </h3>
                     </a>
                 </div>
                 <!--/block-->
                 <div class="block">
-                    <a  class="services__item">
+                    <a class="services__item">
                         <div class="services__content" style="background-image:url('img/3.jpg');">
                             <div class="services__content-item">
 
-                                <p class="services__text">
+                                <p class="services__text lang" key="t3">
                                     Если вы зимой садитесь в автомобиль и сетуете на «леденющее» сидение под вами, то,
                                     безусловно, вам будет полезно знать, что мы можем легко установить подогрев сидений
                                 </p>
                             </div>
                         </div>
-                        <h3 class="services__title">
+                        <h3 class="services__title lang" key="t4">
                             ПОДОГРЕВ СИДЕНИЙ
                         </h3>
                     </a>
                 </div>
                 <!--/block-->
-            </div>
+              </div>
 
 
-            <div class="wrapper">
+              <div class="wrapper">
                 <div class="block block_space">
-                    <a  class="services__item">
+                    <a class="services__item">
                         <div class="services__content" style="background-image:url('img/4.jpg');">
                             <div class="services__content-item">
 
-                                <p class="services__text">
+                                <p class="services__text lang" key="t5">
                                     Сиденья автомобиля страдают от износа в разной степени. Чаще всего требуют ремонта
                                     водительские сиденья
                                 </p>
                             </div>
                         </div>
-                        <h3 class="services__title">
+                        <h3 class="services__title lang"id="about_us" key="t6">
                             РЕМОНТ СИДЕНИЙ
                         </h3>
                     </a>
                 </div>
                 <!--/block-->
                 <div class="block block_space">
-                    <a  class="services__item">
+                    <a class="services__item">
                         <div class="services__content" style="background-image:url('img/5.jpg');">
                             <div class="services__content-item">
 
-                                <p class="services__text">
+                                <p class="services__text lang" key="t7">
                                     По вашему желанию мы можем изготовить любую профессиональную вышивку и тиснение
                                     логотипов ,надписей или рисунков на крое, при перетяжке салона
                                 </p>
                             </div>
                         </div>
-                        <h3 class="services__title">
+                        <h3 class="services__title lang"key="t8">
                             ТИСНЕНИЕ НА КОЖЕ
                         </h3>
                     </a>
                 </div>
                 <!--/block-->
                 <div class="block block_space">
-                    <a  class="services__item">
+                    <a class="services__item">
                         <div class="services__content" style="background-image:url('img/6.jpg');">
                             <div class="services__content-item">
 
-                                <p class="services__text">
-                                    Тот, кто эксплуатирует автомобиль ,обод руля которого обтянут настоящей высококачественной автомобильной кожей хорошо знает, что удовольствие от управления авто с «кожаным» рулем намного выше, чем с обычным, пластиковым ободом
+                                <p class="services__text lang"key="t9">
+                                    Тот, кто эксплуатирует автомобиль ,обод руля которого обтянут настоящей
+                                    высококачественной автомобильной кожей хорошо знает, что удовольствие от управления
+                                    авто с «кожаным» рулем намного выше, чем с обычным, пластиковым ободом
                                 </p>
                             </div>
                         </div>
-                        <h3 class="services__title">
+                        <h3 class="services__title lang"key="t10">
                             ПЕРЕТЯЖКА РУЛЯ
                         </h3>
                     </a>
@@ -242,11 +246,11 @@
     <section class="section about">
         <div class="container">
             <div class="about__wrapper">
-                <div class="about__block">
-                    <h2 class="block__title text-white">
+                <div class="about__block" >
+                    <h2 class="block__title text-white lang" key="about_block">
                         МЫ ПОНИМАЕМ, КАК ВАЖНО НАЙТИ ПРАВИЛЬНЫЙ АВТОСАЛОН
                     </h2>
-                    <p class="about__text">
+                    <p class="about__text lang" key="about_block_content">
                         Мы уверенно предоставляем гарантию на все кожаные салоны, при соблюдении элементарных правил
                         обращения с натуральной кожаной обивкой. Мы даем гарантию как на саму автомобильную кожу, так и
                         на все швы, клеевые работы, монтаж обивки. Работоспособность элементов и узлов автомобильного
@@ -263,90 +267,200 @@
 
     <section class="section process">
         <div class="container">
-            <h2 class="process__title">БЫСТРО & ПРОСТО</h2>
-            <h3 class="process__subtitle">our work process</h3>
-
+            <h2 class="process__title lang" key="easy">БЫСТРО & ПРОСТО</h2>
+            <h3 class="process__subtitle lang" key="works">наши работы</h3>
+            <h2 class="block__title " >
+              Audi
+            </h2>
             <div class="wrapper">
                 <div class="block">
-                    <div class="process__item">
-                        <h4 class="info__title">1.Request your quote</h4>
-                        <p class="info__text">
-                            We will be there when you most need us
-                        </p>
-                    </div>
+                 
+                        <div class="galery" >
+                            <img class="galery-img" src="img/a1.jpg" alt="">
+                        </div>
                 </div>
+                <!--/block-->
                 <div class="block">
-                    <div class="process__item">
-                        <h4 class="info__title">02. BRING YOUR VEHICLE</h4>
-                        <p class="info__text">
-                            We are car guys at heart
-                        </p>
+                    <div class="galery" >
+                        <img class="galery-img" src="img/a2.jpg" alt="">
                     </div>
                 </div>
+                <!--/block-->
                 <div class="block">
-                    <div class="process__item">
-                        <h4 class="info__title">03. GET IT REPAIRED</h4>
-                        <p class="info__text">
-                            High quality, low cost car servicing
-                        </p>
+                    <div class="galery" >
+                        <img class="galery-img" src="img/a3.jpg" alt="">
+                        
                     </div>
                 </div>
-            </div>
-        </div>
+                <!--/block-->
+              </div>
+              <h2 class="block__title  " >
+                Land rover
+              </h2>
+              <div class="wrapper">
+                <div class="block">
+                 
+                        <div class="galery" >
+                            <img class="galery-img" src="img/l1.jpg" alt="">
+                        </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/l2.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/l3.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+              </div>
+              <h2 class="block__title " >
+                Bmw
+              </h2>
+              <div class="wrapper">
+                <div class="block">
+                 
+                        <div class="galery" >
+                            <img class="galery-img" src="img/b1.jpg" alt="">
+                        </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/b2.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/b3.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+              </div>
+              <h2 class="block__title " >
+                Audi
+              </h2>
+              <div class="wrapper">
+                <div class="block">
+                 
+                        <div class="galery" >
+                            <img class="galery-img" src="img/a1.jpg" alt="">
+                        </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/a1.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/a1.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+              </div>
+              <h2 class="block__title " >
+                Audi
+              </h2>
+              <div class="wrapper">
+                <div class="block">
+                 
+                        <div class="galery" >
+                            <img class="galery-img" src="img/a1.jpg" alt="">
+                        </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/a1.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+                <div class="block">
+                    <div class="galery" >
+                        <img class="galery-img" src="img/a1.jpg" alt="">
+                    </div>
+                </div>
+                <!--/block-->
+              </div>
+                
         <!--/container-->
     </section>
 
     <section class="contacts">
         <div class="container">
-            <h2 class="block__title text-white">
-                Напишите нам
-            </h2>
-            <form class="contacts__form" action="mail.php" method="POST">
-                <div class="form__row">
-                    <div class="form__group">
-                        <input type="text" class="input" name="user_name" placeholder=" ">
-                        <label for="" class="label">
-                            Имя
-                        </label>
-                    </div>
-                    <div class="form__group">
-                        <input type="text" class="input" placeholder=" ">
-                        <label for="" class="label">
-                            Фамилия
-                        </label>
-                    </div>
+            <div class="about__wrapper">
+                <div class="about__block">
+                    <h2 class="block__title text-white lang"key="contact" id="mail">
+                        НАПИШИТЕ НАМ
+                    </h2>
+                    <form class="contacts__form  " action="mail.php" method="POST">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="input" name="user_name" placeholder=" ">
+                                <label for="" class="label lang" key="name">
+                                    Имя
+                                </label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="input" name="user_sname" placeholder=" ">
+                                <label for="" class="label lang" key="Sname">
+                                    Фамилия
+                                </label>
+                            </div>
+                        </div>
+                        <!--/form__row-->
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="input" name="user_email" placeholder=" ">
+                                <label for="" class="label lang" key="email">
+                                    Почта
+                                </label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="input" name="user_phone" placeholder=" ">
+                                <label for="" class="label lang" key="phone">
+                                    Телефон
+                                </label>
+                            </div>
+                        </div>
+                        <!--/form__row-->
+                        <div class="form__row">
+                            <div class="form__group">
+                                <textarea class="textarea" placeholder=" " name="message"></textarea>
+                                <label for="" class="label lang" key="mess">
+                                    Сообщение
+                                </label>
+                            </div>
+                        </div>
+                        <!--/form__row-->
+                        <button class="btn text-upper lang" type="submit" key="submit">
+                            Отправить
+                        </button>
+                        
+                
+                  </form>
+
                 </div>
-                <!--/form__row-->
-                <div class="form__row">
-                    <div class="form__group">
-                        <input type="text" class="input" name="user_email" placeholder=" ">
-                        <label for="" class="label">
-                            Почта
-                        </label>
-                    </div>
-                    <div class="form__group">
-                        <input type="text" class="input" name="user_phone" placeholder=" ">
-                        <label for="" class="label">
-                            Телефон
-                        </label>
-                    </div>
-                </div>
-                <!--/form__row-->
-                <div class="form__row">
-                    <div class="form__group">
-                        <textarea class="textarea" placeholder=" " name=""></textarea>
-                        <label for="" class="label">
-                            Сообщение
-                        </label>
-                    </div>
-                </div>
-                <!--/form__row-->
-                <button class="btn text-upper" type="submit">
-                    Отправить
-                </button>
-            </form>
-            <!--/contact__form-->
+                <!--/about__block-->
+
+                
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10877.441394896732!2d28.8482124!3d47.0331594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x867f2ca309c032ae!2sArt-l%20Atelier%20repara%C8%9Bie%20salon%20auto!5e0!3m2!1sro!2s!4v1664802922926!5m2!1sro!2s"
+                width="600" height="440" bottom="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          
         </div>
+
         <!--/container-->
     </section>
     <footer class="footer">
@@ -371,6 +485,12 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+
+
+
+
+<script src="javascript/script.js"></script>
+    <script src="https://widget.flowxo.com/embed.js" data-fxo-widget="eyJ0aGVtZSI6IiMxZDI2MzMiLCJ3ZWIiOnsiYm90SWQiOiI2MzNiMmNjNzhjM2RkZjAwZWEzZmVlZGEiLCJ0aGVtZSI6IiMxZDI2MzMiLCJsYWJlbCI6ItCR0J7Qol8xIn0sIndlbGNvbWVUZXh0Ijoi0KHQstGP0LfQsNGC0YzRgdGPINGBINC90LDQvNC4IiwicG9wdXBIZWlnaHQiOiLQodCy0Y/Qt9Cw0YLRjNGB0Y8g0YEg0L3QsNC80LgifQ==" async defer></script>
 </body>
 
 </html>
