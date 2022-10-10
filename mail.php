@@ -1,8 +1,5 @@
 <?php
 
-/* https://api.telegram.org/bot5558007855:AAGWTOWMFn3ntC98ZhzPiG8bVsI6jp4nYvw/getUpdates,
-где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
-
 $name = $_POST['user_name'];
 $sname = $_POST['user_sname'];
 $phone = $_POST['user_phone'];
@@ -30,4 +27,3 @@ if ($sendToTelegram) {
 } else {
   echo "Error";
 }
-?>
